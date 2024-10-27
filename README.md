@@ -1,24 +1,24 @@
 
 python开发的股市行情看板
 
-演示地址：[https://geeeeeeeek.github.io/stock_page/](https://geeeeeeeek.github.io/stock_page/)
+Demo site：[https://geeeeeeeek.github.io/stock_page/](https://geeeeeeeek.github.io/stock_page/)
 
-#### 简介
-近期股市又骚动起来，在3000点附近游荡，回忆起昔日炒股经历，历历在目，悲惨经历让人黯然神伤，去年共投入4000元入市，最后仅剩1000多，无奈闭关修炼，忘记股市，全身心投入代码世界，享受代码带来的乐趣。近日，当看到别人用python进行量化投资暴富的消息，顿时振奋，立刻学习起python数据分析之道，开发了一个股市行情看板，希望借python之力，早日实现财务自由，达到人生巅峰，
+#### Introduction
+Recently, the stock market has been stirring up, wandering around 3000 points, recalling the past experience of stock speculation, vivid in my mind, the tragic experience of people sad, last year, a total of 4000 yuan into the market, and finally only 1000 more than the last, no choice but to shut down and practice, forget the stock market, fully committed to the world of code, to enjoy the fun of the code. Recently, when I saw others use python to quantitatively invest in the news of the rich, suddenly invigorated, and immediately learn the way of python data analysis, the development of a stock market quotation board, hoping to borrow the power of python, as soon as possible to achieve financial freedom, and to reach the pinnacle of life!
 
-#### 项目依赖
+#### Steps
 
 - pip install numpy
 - pip install bottle
 - pip install requests 
 
-#### 运行方式
+then
+```
 python handle_csv.py
+```
 
-即可生成index.html
+Just visit index.html
 
-
-#### 程序定制
-
-微信: lengqin1024
+-------------------------------
+Good luck
 
