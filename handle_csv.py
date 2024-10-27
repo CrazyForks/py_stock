@@ -15,7 +15,7 @@ github: https://github.com/geeeeeeeek/py_stock
 
 def top_ten_by_price(sub_li):
     """
-    股价排名
+    股价排名(order by price)
     """
     sub_li.sort(key=lambda x: float(x[1]), reverse=True)
     return sub_li[0:10]
@@ -23,7 +23,7 @@ def top_ten_by_price(sub_li):
 
 def top_ten_by_range(sub_li):
     """
-    涨幅排名
+    涨幅排名(order by increase)
     """
     sub_li.sort(key=lambda x: float(x[3]), reverse=True)
     return sub_li[0:10]
@@ -31,7 +31,7 @@ def top_ten_by_range(sub_li):
 
 def top_ten_by_range_r(sub_li):
     """
-    跌幅排名
+    跌幅排名(order by decrease)
     """
     sub_li.sort(key=lambda x: float(x[3]))
     return sub_li[0:10]
@@ -39,7 +39,7 @@ def top_ten_by_range_r(sub_li):
 
 def top_ten_by_volume(sub_li):
     """
-    成交量排名
+    成交量排名(order by volume)
     """
     sub_li.sort(key=lambda x: float(x[4]), reverse=True)
     return sub_li[0:10]
@@ -47,7 +47,7 @@ def top_ten_by_volume(sub_li):
 
 def top_ten_turn_volume(sub_li):
     """
-    成交额排名
+    成交额排名(order by Turnover)
     """
     sub_li.sort(key=lambda x: float(x[5]), reverse=True)
     return sub_li[0:10]
